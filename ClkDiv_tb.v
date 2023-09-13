@@ -40,7 +40,7 @@ initial begin
     // Reset
     Reset();  
 
-    // Test all cases: No out at n = 0 && n = 1 
+    // Test all cases: CLK Ref at n = 0 && n = 1 
     // And from n = 2 --> n = 15 
     for (i = 0 ; i < 16 ; i = i + 1 ) begin
         Clock_Divider(i);
